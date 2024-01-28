@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+ int i;
+ printf("reverse order 20 to 1:\n");
+ for(i=20;i>=1;i--)
+ {
+     printf("%d",i);
+ }
+ return 0;
+ }
